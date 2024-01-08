@@ -1,0 +1,297 @@
+<mxfile host="Electron" modified="2023-12-11T07:33:25.462Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="LYfd2Dgf3AkOFtWfPgAp" version="22.1.2" type="device" pages="4">
+  <diagram name="消息处理逻辑" id="Page-1">
+    <mxGraphModel dx="1438" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5MSFgtCIhvNddyPhFywX-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5MSFgtCIhvNddyPhFywX-78" target="5MSFgtCIhvNddyPhFywX-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5MSFgtCIhvNddyPhFywX-78" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5MSFgtCIhvNddyPhFywX-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="5MSFgtCIhvNddyPhFywX-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="372" as="sourcePoint" />
+            <mxPoint x="385" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5MSFgtCIhvNddyPhFywX-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MSFgtCIhvNddyPhFywX-80" target="5MSFgtCIhvNddyPhFywX-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5MSFgtCIhvNddyPhFywX-80" value="接收到Event" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5MSFgtCIhvNddyPhFywX-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5MSFgtCIhvNddyPhFywX-83" target="5MSFgtCIhvNddyPhFywX-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="385" y="495" />
+              <mxPoint x="386" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5MSFgtCIhvNddyPhFywX-89" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5MSFgtCIhvNddyPhFywX-84">
+          <mxGeometry x="-0.4456" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5MSFgtCIhvNddyPhFywX-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MSFgtCIhvNddyPhFywX-83" target="5MSFgtCIhvNddyPhFywX-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5MSFgtCIhvNddyPhFywX-88" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5MSFgtCIhvNddyPhFywX-87">
+          <mxGeometry x="-0.1429" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5MSFgtCIhvNddyPhFywX-83" value="报警规则变更消息" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="335" y="410" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5MSFgtCIhvNddyPhFywX-86" value="删除报警规则内存缓存【doWhenModelChanged&lt;span style=&quot;background-color: initial;&quot;&gt;】&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="415" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5MSFgtCIhvNddyPhFywX-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5MSFgtCIhvNddyPhFywX-90" target="5MSFgtCIhvNddyPhFywX-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5MSFgtCIhvNddyPhFywX-90" value="报警规则触发&lt;br&gt;【triggerAlarm&lt;span style=&quot;background-color: initial;&quot;&gt;】&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5MSFgtCIhvNddyPhFywX-97" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="650" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="w4QqbDLw4MN7Bq0C9uvb" name="报警触发流程">
+    <mxGraphModel dx="1438" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-1" target="ExsRuqgd5VTOGv7fc0cG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-2" value="循环结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="890" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-3" target="ExsRuqgd5VTOGv7fc0cG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-3" value="循环报警规则list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-5" target="ExsRuqgd5VTOGv7fc0cG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ExsRuqgd5VTOGv7fc0cG-9">
+          <mxGeometry x="-0.2923" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-5" target="ExsRuqgd5VTOGv7fc0cG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ExsRuqgd5VTOGv7fc0cG-12">
+          <mxGeometry x="0.1" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-5" value="报警规则是否以缓存" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-8" target="ExsRuqgd5VTOGv7fc0cG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-8" value="加载报警规则缓存&lt;br&gt;【loadAlarmRuleCache&lt;span style=&quot;background-color: initial;&quot;&gt;】&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="340" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-11" target="ExsRuqgd5VTOGv7fc0cG-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-11" value="在内存中获取报警规则" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-14" target="ExsRuqgd5VTOGv7fc0cG-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="525" />
+              <mxPoint x="120" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-17" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ExsRuqgd5VTOGv7fc0cG-16">
+          <mxGeometry x="-0.1333" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-14" target="ExsRuqgd5VTOGv7fc0cG-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-25" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ExsRuqgd5VTOGv7fc0cG-24">
+          <mxGeometry x="-0.1067" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-14" value="报警规则是否为null" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="490" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-23" target="ExsRuqgd5VTOGv7fc0cG-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="640" />
+              <mxPoint x="180" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-27" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ExsRuqgd5VTOGv7fc0cG-26">
+          <mxGeometry x="-0.6349" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-29" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ExsRuqgd5VTOGv7fc0cG-28">
+          <mxGeometry x="-0.2278" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-23" value="报警规则是否启用" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-30" target="ExsRuqgd5VTOGv7fc0cG-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-35" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ExsRuqgd5VTOGv7fc0cG-32">
+          <mxGeometry x="-0.08" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-30" target="ExsRuqgd5VTOGv7fc0cG-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-36" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ExsRuqgd5VTOGv7fc0cG-34">
+          <mxGeometry x="-0.1636" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-30" value="通用报警规则" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="720" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-31" target="ExsRuqgd5VTOGv7fc0cG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-31" value="通用报警规则判定" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="117.5" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ExsRuqgd5VTOGv7fc0cG-33" target="ExsRuqgd5VTOGv7fc0cG-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="288" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExsRuqgd5VTOGv7fc0cG-33" value="其他报警规则判定" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fy4x2YGindaDV4QJcGCg" name="加载报警规则缓存流程">
+    <mxGraphModel dx="1438" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sIDuH2H3tmJF_O4OnTTE" name="报警推送流程">
+    <mxGraphModel dx="1438" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BKEEpZwBnTz_85__Nt7-1" target="2BKEEpZwBnTz_85__Nt7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="240" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-2" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="930" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BKEEpZwBnTz_85__Nt7-3" target="2BKEEpZwBnTz_85__Nt7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-3" value="报警状态机中取出报警状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BKEEpZwBnTz_85__Nt7-5" target="2BKEEpZwBnTz_85__Nt7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-5" value="获取当前报警状态：normal or alarm" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2BKEEpZwBnTz_85__Nt7-7" target="2BKEEpZwBnTz_85__Nt7-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="510" />
+              <mxPoint x="290" y="955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-10" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2BKEEpZwBnTz_85__Nt7-9">
+          <mxGeometry x="-0.3798" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BKEEpZwBnTz_85__Nt7-7" target="2BKEEpZwBnTz_85__Nt7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-15" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2BKEEpZwBnTz_85__Nt7-14">
+          <mxGeometry x="-0.1667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-7" value="状态机报警状态不存在，且当前报警类型为恢复报警" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="480" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2BKEEpZwBnTz_85__Nt7-13" target="2BKEEpZwBnTz_85__Nt7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-17" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2BKEEpZwBnTz_85__Nt7-16">
+          <mxGeometry x="-0.3089" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BKEEpZwBnTz_85__Nt7-13" target="2BKEEpZwBnTz_85__Nt7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-13" value="报警状态机状态与当前状态相等" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="575" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BKEEpZwBnTz_85__Nt7-19" target="2BKEEpZwBnTz_85__Nt7-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-19" value="装配报警信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="665" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BKEEpZwBnTz_85__Nt7-22" target="2BKEEpZwBnTz_85__Nt7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-22" value="发送报警消息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2BKEEpZwBnTz_85__Nt7-25" target="2BKEEpZwBnTz_85__Nt7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2BKEEpZwBnTz_85__Nt7-25" value="更新报警状态机缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,177 @@
+<mxfile host="Electron" modified="2023-12-11T03:24:34.187Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" version="22.1.2" etag="RAvuzyjibhSn7KsHeRPt" type="device">
+  <diagram name="Page-1" id="Page-1">
+    <mxGraphModel dx="1114" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;时序数据源&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;(&amp;quot;nodeId&amp;quot;: &amp;quot;alarmtopotssource&amp;quot;&lt;br/&gt;        &amp;quot;type&amp;quot;: &amp;quot;TSSource2&amp;quot;)&lt;br/&gt;class：TSSource2FlatMapNodeBuilder.class&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="2">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=1;fillColor=#d6d6d6;gradientColor=none;shape=stencil(hZJLEoIwDIZP06VMm/hgj3APRop0RMqUonh7qUF5FIddkn5J/iRlGDVFWksGvLFG3+RTZbZgeGYAqiqkUba3GMYMo1wbeTW6rTLy69SRzrrrh6vQUZ4QweHksoC/KMI/XkJwqaoJHIbBHv/Dl9ZQaTHU5hiEx4EX0wTewQryi30h9NvinFmV6c+0wJdCd77OUQT4DMxnQb8tbu5yY/G9MZ4sV2VJF5++L0/ch+h7YPwG);strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="9" y="112" width="288" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;报警时序分流&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;（&amp;quot;nodeId&amp;quot;: &amp;quot;tskeyby&amp;quot;,&lt;br/&gt;        &amp;quot;type&amp;quot;: &amp;quot;KeyBySelector&amp;quot;）&lt;br/&gt;class：TSKeyBySelectorNodeBuilder.class&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="3">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=2;fillColor=#d6d6d6;gradientColor=none;shape=stencil(hZJBEoIwDEVP06VMmyyENeI9GCnSsVKmgOLtpQYFWhx2SfqS/CRlmLZV3kgGvO2sucmnKrqK4YkBqLqSVnWjxTBjmJbGyqs1fV2Q3+SOdNbdPFyFgfKEiI6JywL+ogj/eGeCtaoXcBxHIP7Dl95SaTHV5hglOPFimcAH2EB+sS+EYVtcM5syw5k83Bd6CHXOIiBkYD0Lhm1xd5c7ix+N+WSl0pouvnz3TzyG6Htg9gY=);strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="974" y="435" width="282" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;报警模型变更数据源(&amp;quot;nodeId&amp;quot;: &amp;quot;alarmtopomodelnotification&amp;quot;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;        &amp;quot;type&amp;quot;: &amp;quot;ModelKafkaSource&amp;quot;)&lt;br/&gt;class：ModelKafkaSource.class&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="4">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=3;fillColor=#d6d6d6;gradientColor=none;shape=stencil(hZLbDoIwDIafZpeS0pqI14jvQWTIIjIyhuLbyyzKYRju2u5r+7edoLgp0loKhMYafZNPldlC0EkgqqqQRtneEpQIinNt5NXotsrYr1NHOuuuH65Cx3khBhC5LIQXR+DjnRkuVTWBo0NwxP/wpTVcOhxqwz4AGvhwmgAdriC/2Bcivy3NmVWZ/kwLfCl05+scRaDP4HwW8tvS5i43Ft8b48lyVZZ88en78sR9iL8HJW8=);strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="3" y="435" width="276" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;报警过滤器&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;（&amp;quot;nodeId&amp;quot;: &amp;quot;alarmtopofilter&amp;quot;,&lt;br/&gt;        &amp;quot;type&amp;quot;: &amp;quot;AlarmFilter&amp;quot;）&lt;br/&gt;class：FilterNodeBuilder.class&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="5">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=4;fillColor=#d6d6d6;gradientColor=none;shape=stencil(hZJLEoIwDIZP06VMm4yvNeI9GCnSsVKmgOLtpQalUNRdkn5J/iRlGNdFWkkGvG6suci7ypqC4YEBqLKQVjW9xTBhGOfGyrM1bZmRX6WOdNbV3FyFjvLEJhIuCfiDAvzlHYnVqvTYHUb77+yptVRYDJX5OsLtwAs/gXewgHxibwiDrjhFFkUGA83oucxVqHKUACED00kw6Ip/9/h7570xHitXWtOt/ff5cfsQfQxMng==);strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="974" y="705" width="207" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;Union节点&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;（&amp;quot;nodeId&amp;quot;: &amp;quot;unionnode&amp;quot;,&lt;br/&gt;        &amp;quot;type&amp;quot;: &amp;quot;Union&amp;quot;）&lt;br/&gt;class：UnionNodeBuilder.class&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="6">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=5;fillColor=#d6d6d6;gradientColor=none;shape=stencil(hZJLEoIwDIZP06VMm+DIHvEejBTpiJQpBfH2UoPyKA67JP2S/EnKMG6KtJYMeGONvsunymzB8MwAVFVIo+xgMUwYxrk28mZ0W2Xk16kjnfXQnavQU54IAwEuC/iLIvzjXQguVTWDo2MQRf/ha2uotBhr8zA4iZEX8wTewwbyi30h9NviktmU6c+0wtdCD77OSQT4DCxnQb8t7u5yZ/GDMZ0sV2VJF5+/r088hOh7YPIG);strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="670" y="119" width="236" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;时序数据源FlatMap&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;（&amp;quot;nodeId&amp;quot;: &amp;quot;tssourceflatmap&amp;quot;,&lt;br/&gt;        &amp;quot;type&amp;quot;: &amp;quot;TSSource2FlatMap&amp;quot;）&lt;br/&gt;class：TSSource2FlatMapNodeBuilder.class&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="7">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=6;fillColor=#d6d6d6;gradientColor=none;shape=stencil(hZJLEoIwDIZP06VMmzjIHvEejBTpiJQpBfH2UoPyKA67JP2S/EnKMG6KtJYMeGONvsunymzB8MwAVFVIo+xgMUwYxrk28mZ0W2Xk16kjnfXQnavQU54QAR5dFvAXRfjHuxBcqmoGR1EQhv/ha2uotBhrcwxO0ciLeQLvYQP5xb4Q+m1xyWzK9Gda4WuhB1/nJAJ8BpazoN8Wd3e5s/jBmE6Wq7Kki8/f1yceQvQ9MHkD);strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="982" y="119" width="294" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;模型变更刷新&lt;br/&gt;(&amp;quot;nodeId&amp;quot;: &amp;quot;alarmtopomodelupdater&amp;quot;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;        &amp;quot;type&amp;quot;: &amp;quot;ModelChangeUpdater&amp;quot;)&lt;br/&gt;class：ModelChangeUpdaterNodeBuilder.class&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="8">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=7;fillColor=#d6d6d6;gradientColor=none;shape=stencil(hZLbDoIwDIafZpeSrU0UrhHfg8iQRWRkDMS3l1mUwzDctd3X9m87hnFTpLVkwBtr9F0+VWYLhmcGoKpCGmUHi2HCMM61kTej2yojv04d6ayH7lyFnvKECPjJZQF/UYR/vAvBpapmcBgGEf6Hr62h0mKszTE4RiMv5gm8hw3kF/tC6LfFJbMp059pha+FHnydkwjwGVjOgn5b3N3lzuIHYzpZrsqSLj5/X594CNH3wOQN);strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="311" y="435" width="301" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;报警模型变更数据源分流(&amp;quot;nodeId&amp;quot;: &amp;quot;alarmmodelinfokeyby&amp;quot;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;        &amp;quot;type&amp;quot;: &amp;quot;KeyBySelector&amp;quot;)&lt;br/&gt;class：TSKeyBySelectorNodeBuilder.class&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="9">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=8;fillColor=#d6d6d6;gradientColor=none;shape=stencil(hZJLEoIwDIZP06VMm+jAHvEejBTpWClTHuLtpQblUUZ2Sfol+ZOUYVwXaSUZ8Lqx5i6fKmsKhmcGoMpCWtUMFsOEYZwbK2/WtGVGfpU60lkP07kKPeUJCODksoC/KMI/3oVgrcoZHIVB+Ae+tpZKi7E2PwY8GnkxT+A9bCC/2BdCvy0umU2Z/kwrfC304OucRIDPwHIW9Nvi7i53Fj8Y08lypTVdfP6+PvEQou+ByRs=);strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="660" y="435" width="272" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;b&gt;业务&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;：变量、报警规则变更后，负责刷新redis缓存&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;b&gt;逻辑&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;：ModelChangeUpdaterNodeBuilder -》ModelChangeHandler -》ModelChangeUpdateHandler-》[4个实现类 :ModelChangeAlarmHandler、ModelChangeSubscriptionHandler、ModelChangeDataRuleHandle]&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="10">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=9;fillColor=none;gradientColor=none;shape=stencil(nZHBDsIgEES/hquBJVjvtf4HCShEhUqp1r8XXIwGUzXeZnbfTghDeDsY2WsCdIjB7/XFqmgIXxMA64wONiZFeEd4u/VB74IfnULfy0xmdfTnnDDhHc0XQK/oVs1C3AcbZA/WzbJ0HmT0b7R+wWmUKtMM140odPFLKDidACfikQc/BUIVyNhb4pfAT39Us0k8i8AOX3d1aWmEhfPuBg==);dashed=1;dashPattern=1.00 4.00;strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="219" y="607" width="441" height="141" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;b&gt;业务:&lt;br/&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;1、模型变更后，刷新内存缓存:&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;a.tag与报警规则的关系或者tag与值变化规则的关系&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;b.刷新报警规则与父节点uri的关系&lt;br/&gt;2、接收时序tag值，封装成event，传递给下一个算子&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;b&gt;逻辑：&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;TSSource2FlatMapNodeBuilder -》TSSource2FlatMap&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="11">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=10;fillColor=none;gradientColor=none;shape=stencil(nZHBDsIgEES/hquBJVjvtf4HCShEhUqp1r8XXIwGUzXeZnbfTghDeDsY2WsCdIjB7/XFqmgIXxMA64wONiZFeEd4u/VB74IfnULfy0xmdfTnnDDhHc0XQK/oVs1C3AcbZA/WzbJ0HmT0b7R+wWmUKtMM140odPFLKDidACfikQc/BUIVyNhb4pfAT39Us0k8i8AOX3d1aWmEhfPuBg==);dashed=1;dashPattern=1.00 4.00;strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="1305" y="8" width="363" height="166" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;b&gt;业务:&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;1、模型变更，删除相关缓存&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;2、触发报警业务：&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;   a.加载缓存：loadAlarmRuleCache()&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;   a.通用报警：generalAlarmTrigger()&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;   b.其他报警规则：notGeneralAlarmTrigger()&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;b&gt;逻辑：&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;FilterNodeBuilder-》FilterType-》【Filter、&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#e74f4c;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;AlarmFilter2&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;、ComboFilter】&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="12">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=11;fillColor=none;gradientColor=none;shape=stencil(nZHBDsIgEES/hquBJVjvtf4HCShEhUqp1r8XXIwGUzXeZnbfTghDeDsY2WsCdIjB7/XFqmgIXxMA64wONiZFeEd4u/VB74IfnULfy0xmdfTnnDDhHc0XQK/oVs1C3AcbZA/WzbJ0HmT0b7R+wWmUKtMM140odPFLKDidACfikQc/BUIVyNhb4pfAT39Us0k8i8AOX3d1aWmEhfPuBg==);dashed=1;dashPattern=1.00 4.00;strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="1354" y="688" width="278" height="134" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;数据格式：&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;1、模型变更event&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;2、时序数据event&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="13">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=12;fillColor=none;gradientColor=none;shape=stencil(nZHBDsIgEES/hquBJVjvtf4HCShEhUqp1r8XXIwGUzXeZnbfTghDeDsY2WsCdIjB7/XFqmgIXxMA64wONiZFeEd4u/VB74IfnULfy0xmdfTnnDDhHc0XQK/oVs1C3AcbZA/WzbJ0HmT0b7R+wWmUKtMM140odPFLKDidACfikQc/BUIVyNhb4pfAT39Us0k8i8AOX3d1aWmEhfPuBg==);dashed=1;dashPattern=1.00 4.00;strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="823" y="8" width="228" height="77" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;数据格式：&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;1、报警event&lt;br/&gt;{&amp;quot;EventType&amp;quot;:&amp;quot;tsEvent&amp;quot;,&amp;quot;uri&amp;quot;:&amp;quot;parentUri&amp;quot;,&amp;quot;pointId&amp;quot;:&amp;quot;时序id&amp;quot;,&amp;quot;namespace&amp;quot;:&amp;quot;租户项目名&amp;quot;,&amp;quot;gatewayId&amp;quot;:&amp;quot;时序命名空间&amp;quot;,&amp;quot;s&amp;quot;:&amp;quot;质量位&amp;quot;,&amp;quot;t&amp;quot;:&amp;quot;时间&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;值&amp;quot;,&amp;quot;alarmUri&amp;quot;:&amp;quot;报警规则uri list&amp;quot;}&lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="14">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=13;fillColor=none;gradientColor=none;shape=stencil(nZHBDsIgEES/hquBJVjvtf4HCShEhUqp1r8XXIwGUzXeZnbfTghDeDsY2WsCdIjB7/XFqmgIXxMA64wONiZFeEd4u/VB74IfnULfy0xmdfTnnDDhHc0XQK/oVs1C3AcbZA/WzbJ0HmT0b7R+wWmUKtMM140odPFLKDidACfikQc/BUIVyNhb4pfAT39Us0k8i8AOX3d1aWmEhfPuBg==);dashed=1;dashPattern=1.00 4.00;strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="1213" y="226" width="504" height="140" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;b&gt;业务:&lt;br/&gt;&lt;br/&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;b&gt;逻辑：&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size:13px;font-family:0;color:#323232;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;TSKeyBySelectorNodeBuilder -》TSKeyByUriSelector&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="15">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=14;fillColor=none;gradientColor=none;shape=stencil(nZHBDsIgEES/hquBJVjvtf4HCShEhUqp1r8XXIwGUzXeZnbfTghDeDsY2WsCdIjB7/XFqmgIXxMA64wONiZFeEd4u/VB74IfnULfy0xmdfTnnDDhHc0XQK/oVs1C3AcbZA/WzbJ0HmT0b7R+wWmUKtMM140odPFLKDidACfikQc/BUIVyNhb4pfAT39Us0k8i8AOX3d1aWmEhfPuBg==);dashed=1;dashPattern=1.00 4.00;strokeColor=#323232;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="1354" y="379" width="363" height="166" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="16">
+          <mxCell style="vsdxID=15;edgeStyle=none;dashed=1;dashPattern=1.00 4.00;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeWidth=2;strokeColor=#323232;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=0.9951690821256038;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="12" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="17" parent="1" vertex="1">
+          <mxGeometry x="929" y="173" as="geometry" />
+        </mxCell>
+        <UserObject label="" tags="Background" id="18">
+          <mxCell style="vsdxID=16;edgeStyle=none;dashed=1;dashPattern=1.00 4.00;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeWidth=2;strokeColor=#323232;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=0.5;exitY=0.8701298701298701;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="13" target="17" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="19">
+          <mxCell style="vsdxID=17;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;strokeColor=#323232;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7" target="3" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="20">
+          <mxCell style="vsdxID=18;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;strokeColor=#323232;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4975845410628019;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="5" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="21">
+          <mxCell style="vsdxID=19;edgeStyle=none;dashed=1;dashPattern=1.00 4.00;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeWidth=2;strokeColor=#323232;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=0.4983388704318937;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4988662131519274;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8" target="10" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="22">
+          <mxCell style="vsdxID=20;edgeStyle=none;dashed=1;dashPattern=1.00 4.00;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeWidth=2;strokeColor=#323232;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7" target="11" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="23">
+          <mxCell style="vsdxID=21;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;strokeColor=#323232;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="6" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="24">
+          <mxCell style="vsdxID=22;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;strokeColor=#323232;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8" target="9" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="25">
+          <mxCell style="vsdxID=23;edgeStyle=none;dashed=1;dashPattern=1.00 4.00;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeWidth=2;strokeColor=#323232;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1.00354609929078;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="15" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="26">
+          <mxCell style="vsdxID=24;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;strokeColor=#323232;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6" target="7" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="27">
+          <mxCell style="vsdxID=25;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;strokeColor=#323232;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9" target="6" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="28" parent="1" vertex="1">
+          <mxGeometry x="1127" y="280" as="geometry" />
+        </mxCell>
+        <UserObject label="" tags="Background" id="29">
+          <mxCell style="vsdxID=26;edgeStyle=none;dashed=1;dashPattern=1.00 4.00;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeWidth=2;strokeColor=#323232;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="14" target="28" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="30">
+          <mxCell style="vsdxID=27;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;strokeColor=#323232;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4" target="8" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
